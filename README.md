@@ -1,10 +1,14 @@
 Тестовое задание. На базе BEM project-stub.
 
 Перед использованием установить зависимости:
-```$ npm install```
+```
+$ npm install
+```
 
 Запустить тестовый сервер:
-```enb server```
+```
+$ enb server || node_modules/enb/bin/enb server
+```
 
 Выполнено:
 * Большая часть верстки
