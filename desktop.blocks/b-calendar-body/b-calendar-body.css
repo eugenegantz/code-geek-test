@@ -1,0 +1,48 @@
+.b-calendar-body {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 24px;
+    box-sizing: border-box;
+}
+
+.b-calendar-body__control-row {
+    padding: 32px 0;
+}
+
+.b-calendar-body__ca-chooser-prev .button__text {
+    width: 0;
+    height: 0;
+    border-top: 4px solid transparent;
+    border-right: 4px solid #555;
+    border-bottom: 4px solid transparent;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 0;
+    top: -1px;
+    position: relative;
+}
+
+.b-calendar-body__ca-chooser-next .button__text {
+    width: 0;
+    height: 0;
+    border-top: 4px solid transparent;
+    border-left: 4px solid #555;
+    border-bottom: 4px solid transparent;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 0;
+    top: -1px;
+    position: relative;
+}
+
+.b-calendar-body__ca-chooser-title {
+    display: inline-block;
+    width: 128px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.b-calendar-body__ca-chooser-today {
+    margin-left: 12px;
+}

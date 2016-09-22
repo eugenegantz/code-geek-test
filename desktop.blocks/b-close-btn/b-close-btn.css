@@ -1,0 +1,7 @@
+.b-close-btn {
+    height: 7px;
+    width: 7px;
+    position: absolute;
+    background-image: url(b-close-btn.png);
+    cursor: pointer;
+}

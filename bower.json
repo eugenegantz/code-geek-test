@@ -1,0 +1,12 @@
+{
+  "name": "code-geek-test",
+  "description": "Тестовое задание",
+  "ignore": [
+    ".bem/cache",
+    "node_modules",
+    "libs"
+  ],
+  "dependencies": {
+    "bem-components": "3.0.1"
+  }
+}

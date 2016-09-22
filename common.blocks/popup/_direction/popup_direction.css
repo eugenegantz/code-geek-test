@@ -1,0 +1,31 @@
+.popup_direction_right-top .popup__tail {
+    top: 32px;
+    left: -10px;
+}
+
+.popup_direction_right-top .popup__tail:after {
+    bottom: 1px;
+    left: 1px;
+}
+
+.popup_direction_bottom-center .popup__tail {
+     top: -10px;
+     left: 50%;
+     margin-left: -8px;
+ }
+
+.popup_direction_bottom-center .popup__tail:after {
+    bottom: -1px;
+    left: 1px;
+}
+
+.popup_direction_left-top .popup__tail {
+    top: 32px;
+    right: -10px;
+    margin-left: -8px;
+}
+
+.popup_direction_left-top .popup__tail:after {
+    bottom: -1px;
+    left: -1px;
+}

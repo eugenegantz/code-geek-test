@@ -1,0 +1,29 @@
+.popup {
+    padding: 24px;
+    background: white;
+    visibility: hidden;
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.26);
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.popup__tail {
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    background: #d9d9d9;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.popup__tail:after {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    content: '';
+    background: #fff;
+}
